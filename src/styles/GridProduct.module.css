@@ -1,0 +1,9 @@
+.GridProduct{padding: .7rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+
+    height: 80vh;
+    overflow-y: scroll;
+}
+.GridProduct::-webkit-scrollbar{    display: none;}

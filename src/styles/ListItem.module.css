@@ -1,0 +1,22 @@
+.ListItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-top: .3rem;
+
+}
+
+.ListItem img{
+    width: 100px;
+    height: 100px;
+}
+
+.ListItem p{
+    font-size: 1rem;
+}
+
+h1{
+    display: inline-block;
+}
+

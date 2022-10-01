@@ -1,0 +1,48 @@
+nav{
+    width: 450px;
+    height: 60px;
+    background-color: #000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo-left{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo-right{
+    position: relative;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.menu{
+    color: #fff;
+}
+
+.cantidad{
+    content: '';
+    width: 17px;
+    height: 17px;
+    background-color: rgb(4, 0, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    color: #fff;
+    font-size: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

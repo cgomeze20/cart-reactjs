@@ -1,0 +1,43 @@
+.ProductCard{
+    border: 1px solid #ccc;
+    width: 200px;
+    height: 380px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: .5rem 0 0 0;
+    overflow: hidden;
+}
+
+.imagen{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name{
+    font-weight: bolder;
+}
+
+.description{
+    color: #888888;
+    font-size: .8rem;
+}
+
+.price{
+    font-weight: bolder;
+}
+
+.boton{
+    border: 1px solid #ddd;
+    width: 100%;
+    outline: none;
+    color: #26e;
+    font-weight: bold;
+    padding: .7rem;
+    background-color: #eee;
+}
